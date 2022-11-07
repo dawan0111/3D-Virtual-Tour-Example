@@ -36,9 +36,22 @@ body {
   min-height: 100vh;
 }
 
+body,
+html {
+  overflow: hidden;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+#container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 #app {
